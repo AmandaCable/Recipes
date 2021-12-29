@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+}
+
+.registerForm, .loginForm {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+input {
+    margin: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+.loginbutton, .regbutton {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.regHeader {
+    color: lightblue;
+}
+
+.regbutton{
+    background-color: lightblue;
+}
+
+.loginHeader {
+    color: lightgreen
+}
+
+.loginbutton{
+    background-color: lightgreen;
+}
